@@ -8,7 +8,7 @@ from PIL import Image
 from PIL.Image import core as _imaging
 
 # Add image file name here
-im = Image.open("twin-towers.jpg"). 
+im = Image.open("twin-towers.jpg") 
 print(im.format, im.size, im.mode)
 im.show()
 height, width = im.size
