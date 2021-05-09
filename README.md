@@ -1,4 +1,4 @@
-# ASCII-pic
+# ASCII-picture
 Converts coloured .png/.jpeg pictures into black and white pictures (made of ASCII characters).
 How to use converter: 
 1)   Enter python3 converter.py in terminal.
