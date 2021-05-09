@@ -1,7 +1,17 @@
 # ASCII-pic
-Converts colour .png/.jpeg pictures into black and white pictures made of ASCII characters.
-Processes each image one bit at a time using its GRB value.
+Converts coloured .png/.jpeg pictures into black and white pictures (made of ASCII characters).
+How to use converter: 
+1)   Enter python3 converter.py in terminal.
+2)   Zoom out to see best results.
+3)   Change picture by editing the file path in line 11 of the converter 
+     ->   im = Image.open("twin-towers.jpg")
 
-Uses the Python Imaging Library (PIL) to import the selected picture.
-Represents each pixel in a n x n matrix and prints the matrix in the terminal.
-Zoom out when you are in the terminal to see best results.
+
+How it works:
+1)   Uses the Python Imaging Library (PIL) to import the selected picture.
+2)   Finds the GRB value for end bit in the picture.
+3)   Represents each pixel in a 2 dimension matrix.
+4)   Convert GRB value to this grey scale 
+     ->  `^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$.
+6)   Prints the matrix in the terminal.
+
