@@ -9,9 +9,9 @@ How to use converter:
 
 How it works:
 1)   Uses the Python Imaging Library (PIL) to import the selected picture.
-2)   Finds the GRB value for end bit in the picture.
+2)   Finds the RGB value for end bit in the picture.
 3)   Represents each pixel in a 2 dimension matrix.
-4)   Convert GRB value to this grey scale 
+4)   Convert RGB value to this grey scale 
      ->  `^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$.
 6)   Prints the matrix in the terminal.
 
