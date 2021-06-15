@@ -6,6 +6,8 @@ How to use converter:
 3)   Change picture by editing the file path in line 11 of the converter 
      ->   im = Image.open("twin-towers.jpg")
 
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
 
 How it works:
 1)   Uses the Python Imaging Library (PIL) to import the selected picture.
