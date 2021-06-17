@@ -7,9 +7,11 @@ How to use converter:
      ->   im = Image.open("twin-towers.jpg")
 
 Original Picture
+
 <img src="https://github.com/yili288/ASCII-pic/blob/master/twin-towers.jpg"  height="250" />
 
 Convert ASCII Picture
+
 <img src="https://github.com/yili288/ASCII-pic/blob/master/Black-white-twin-towers.png"  height="350" />
 
 How it works:
