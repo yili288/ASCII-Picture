@@ -1,7 +1,7 @@
 # ASCII-picture
 Converts coloured .png/.jpeg pictures into black and white pictures (made of ASCII characters).
 How to use converter: 
-1)   Enter python3 -m pip install --upgrade Pillow python3 converter.py in terminal.
+1)   Enter 'python3 -m pip install --upgrade Pillow' 'python3 converter.py' in terminal.
 2)   Zoom out to see best results.
 3)   Change picture by editing the file path in line 11 of the converter 
      ->   im = Image.open("twin-towers.jpg")
